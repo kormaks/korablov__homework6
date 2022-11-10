@@ -9,12 +9,6 @@ ul {
     max-width: 1140px;
     margin: 0 auto;
 }
-
-.flex {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 .button {
     box-sizing: border-box;
     border: none;
@@ -45,11 +39,9 @@ ul {
     mix-blend-mode: normal;
     text-align: center;
 }
-.engage-visitors__flex{
-    flex-direction: column;
-}
 .engage-visitors__content{
     max-width: 555px;
+    margin: 0 auto;
     margin-bottom: 111px;
 }
 .engage-visitors__logo{
@@ -84,13 +76,11 @@ ul {
     border-radius: 8px;
     padding-top: 22px;
 }
-.engage-visitors__li:not(:last-of-type){
-    margin-right: 30px;
-}
 .engage-visitors__icon{
     margin-bottom: 22px;
 }
 .engage-visitors__icon-text{
+    font-weight: 700;
     font-size: 22px;
     text-align: center;
     color: #2B292D;
